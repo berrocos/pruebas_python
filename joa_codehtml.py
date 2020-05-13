@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-URL = 'http://as.com/'
+URL = 'http://as.com/' 
 
 page = requests.get(URL)
 
